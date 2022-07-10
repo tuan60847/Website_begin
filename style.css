@@ -1,0 +1,179 @@
+:root{
+    font-size: 10px;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-size: 1.6rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  i{
+    font-size: 4rem;
+  }
+
+  .btn{
+    background: blue;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  .story{
+    text-align: center;
+    width: 95%;
+    word-break: break-word;
+    margin: 5rem auto;
+  }
+
+  
+
+  .student{
+    width: 80rem;
+    margin: 0 auto;
+    box-shadow: 0rem 0rem 1rem 0rem;
+    border-radius: 1.5rem 1.5rem;
+  }
+
+  .high-school__container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: blue;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    color: white;
+  }
+
+  .high-school__title{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+  }
+
+  .image-container{
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .background{
+    cursor: pointer;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 2rem 2rem 0rem 0rem;
+  }
+  
+  .avatar-container{
+      cursor: pointer;
+      position: absolute;
+      top: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      border-radius: 60rem; 
+  }
+  
+  .avatar{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50rem;
+    object-fit: cover;
+    margin: 0.3rem;
+  }
+  .name{
+    font-weight: 700;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .tick-protection{
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .tick-protection i {
+    font-size: 3rem;
+    color: blue;
+  }
+  
+  .specialized-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .specialized__list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .specialized-infor{
+    margin: 1rem;
+  }
+
+  .main-infor__container{
+     width: 100%;
+  }
+
+  .more-infor{
+    padding-top: 3rem;
+    border-top: 0.5px solid rgb(83, 81, 81, 0.5);
+    width: 500px;
+    margin: 6rem auto;
+    padding-bottom: 5rem;
+  }
+  .more-infor__container{
+    width: 85%;
+    margin: 0 auto;
+    word-break: break-work;
+  }
+  .more-infor-items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .text-item{
+    margin-left: 1rem;
+  }
+
+  .contact{
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-me{
+    font-size: 2rem;
+    width: fit-content;
+    margin-bottom: 3rem;
+  }
+@media screen and (max-width:850px){
+
+    .student{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 510px){
+    .more-infor{
+        width: 100%;
+    }
+
+    .more-infor-items{
+      margin-top: 2rem;
+    }
+}
